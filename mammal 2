@@ -1,0 +1,32 @@
+package corejava;
+
+public class Mammal extends Animal {
+	//creating method mannal
+	public void nature() {
+		System.out.println(" mammal");
+	}
+
+}
+
+
+
+
+//////Dog 
+
+package corejava;
+
+public class DOG extends  Mammal{
+	// creating method sound
+	public void sound() {
+		System.out.println("be be");
+		
+	}
+	public static void main(String[]args) {
+		DOG d = new DOG();
+		d.eat();
+		d.nature();
+		d.sound();
+	}
+	
+
+}
