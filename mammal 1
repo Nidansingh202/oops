@@ -1,0 +1,8 @@
+package corejava;
+
+public class Animal {
+   // create method eat
+	public void eat() {
+		System.out.println("voice");
+	}
+}
