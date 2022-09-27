@@ -1,0 +1,34 @@
+package corejava;
+
+abstract class car {
+	//constructor
+	public void  car() {
+		System.out.print("car is bulit");
+	}
+	// creating abstract class 
+	abstract void drive();
+	public void gearchange() {
+	System.out.println("car change");
+}
+}
+
+
+/// Tesla is car
+
+package corejava;
+
+public class tesla extends car {
+	
+	void drive() {
+		System.out.println("Drive sately");
+		
+	}
+	public static void main (String[]args) {
+		tesla t=new tesla();
+		t.drive();
+		t.gearchange();
+		
+		
+	}
+
+}
