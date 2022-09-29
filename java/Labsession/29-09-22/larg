@@ -1,0 +1,29 @@
+Create a program to find largest of two numbers.
+
+
+
+package Labsession;
+
+//using scanner the import
+	import java.util.Scanner;
+
+	public class largest_number 
+	{
+		//main fumction 
+	   public static void main(String[] args)
+	   {
+	      Scanner scan = new Scanner(System.in);
+	    //enter the largest number  
+	      System.out.print("Enter Two Numbers: ");
+	      
+	      int x = scan.nextInt();
+	      int y = scan.nextInt();
+	      
+	      System.out.println("\nLargest = " +LargestOfTwo(x, y));
+	   }
+	   public static int LargestOfTwo(int a, int b)
+	   {
+	      return (a>b) ? a:b;
+	   }
+	}
+	
